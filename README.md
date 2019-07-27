@@ -20,3 +20,17 @@
             
             
             
+# 注意点
+中文词云使用要同时使用中文解析器以及Font，否则会出现中文乱码，官方文档未指出！
+
+```
+//使用中文解析器
+ frequencyAnalyzer.setWordTokenizer(new ChineseWordTokenizer());
+ 
+ 
+//此处不设置会出现中文乱码
+java.awt.Font font = new java.awt.Font("STSong-Light", 2, 18);
+final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
+wordCloud.setKumoFont(new KumoFont(font));
+ 
+ ```
