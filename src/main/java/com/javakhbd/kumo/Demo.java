@@ -22,7 +22,7 @@ import java.util.Random;
  * @CreateDate: Created in 2019/7/27 13:47 <br>
  */
 
-public class Dome1 {
+public class Demo {
 
     public static void main(String[] args) throws IOException {
 
