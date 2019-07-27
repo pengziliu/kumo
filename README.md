@@ -34,3 +34,8 @@ final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT
 wordCloud.setKumoFont(new KumoFont(font));
  
  ```
+ 
+ # 欢迎关注公众号
+ 
+ ![avatar](http://qn.cxylt.cn/zhyd/cover/20190506030834525.jpg)
+ 
