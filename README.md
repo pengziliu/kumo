@@ -35,7 +35,4 @@ wordCloud.setKumoFont(new KumoFont(font));
  
  ```
  
- # 欢迎关注公众号
- 
 
- ![](http://qn.cxylt.cn/zhyd/cover/20190506030834525.jpg)
